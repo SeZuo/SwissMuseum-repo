@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="github"
-           fetch="git@github.com:sebasti4n" />
+           fetch="ssh://git@github.com:22/sebasti4n/" />
 
   <default revision="refs/heads/master"
            remote="github"
            sync-j="4" />
 
   <!-- Core components -->
-  <project name="SwissMuseumCore" remote="github" path="core" />
-  <project name="Parcours.git" remote="github" path="parcours" />
-  <project name="Mimosa3.git" remote="github" path="cms" />
-
+  <project name="SwissMuseumCore" remote="github" path="../SwissMuseum - Core/" />
+  <project name="Parcours" remote="github" path="../SwissMuseum - Parcours/" />
+  <project name="Mimosa3" remote="github" path="../SwissMuseum - Mimosa3/" />
 </manifest>
