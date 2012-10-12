@@ -8,7 +8,7 @@
            sync-j="4" />
 
   <!-- Core components -->
-  <project name="SwissMuseumCore.git" remote="github" path="core" />
+  <project name="SwissMuseumCore" remote="github" path="core" />
   <project name="Parcours.git" remote="github" path="parcours" />
   <project name="Mimosa3.git" remote="github" path="cms" />
 
