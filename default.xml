@@ -8,7 +8,7 @@
            sync-j="4" />
 
   <!-- Core components -->
-  <project name="SwissMuseumCore" remote="github" path="../SwissMuseum - Core/" />
-  <project name="Parcours" remote="github" path="../SwissMuseum - Parcours/" />
-  <project name="Mimosa3" remote="github" path="../SwissMuseum - Mimosa3/" />
+  <project name="SwissMuseumCore" remote="github" path="../../../SwissMuseum - Core/" />
+  <project name="Parcours" remote="github" path="../../../SwissMuseum - Parcours/" />
+  <project name="Mimosa3" remote="github" path="../../../SwissMuseum - Mimosa3/" />
 </manifest>
